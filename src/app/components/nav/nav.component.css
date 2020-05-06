@@ -1,0 +1,37 @@
+.route {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.route a {
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: transparent;
+  width: 100%;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 15px 17px;
+  transition: 0.2s;
+}
+
+.route a:hover {
+  background: var(--hover-color);
+}
+
+button.mat-ripple {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  padding: 11px 0;
+  margin: 0 11px;
+}
+
+button.mat-ripple.active {
+  border-bottom: 4px solid var(--border-color);
+}
