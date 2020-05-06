@@ -1,13 +1,13 @@
 export const particles_bg = {
   particles: {
     number: {
-      value: window.innerWidth / 10,
+      value: window.innerWidth / 8,
       density: {
         enable: false
       },
     },
     color: {
-      value: ["#9e9e9e", "#757575", "#616161"]
+      value: ["#9e9e9e", "#757575", "#656565"]
     },
     shape: {
       type: "circle"
@@ -16,7 +16,7 @@ export const particles_bg = {
       value: 5,
       random: true,
       anim: {
-        speed: 6,
+        speed: 2,
         size_min: 0.3,
       },
     },
@@ -25,7 +25,7 @@ export const particles_bg = {
     },
     move: {
       random: true,
-      speed: "random",
+      speed: 1,
       direction: "top",
       out_mode: "out",
     },

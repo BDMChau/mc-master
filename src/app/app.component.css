@@ -2,6 +2,7 @@
   background-color: var(--background-color);
   transition: 0.3s;
   height: 100vh;
+  width: 100vw
 }
 
 .toggle-theme {
@@ -16,7 +17,7 @@
   width: 45px;
   height: 45px;
   border: none;
-  background-color: grey;
+  background-color: #00000085;
   border-radius: 50%;
   cursor: pointer;
   z-index: 100;

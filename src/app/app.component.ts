@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ThemeService } from './components/theme/theme.service';
-import { particles_bg } from './components/particles';
+import { particles_bg } from './particles';
 
 declare var particlesJS: any;
 
@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   }
 
   particlesLoad = () => {
-    particlesJS('particles-js', particles_bg, () => { });
+    particlesJS("particles-js", particles_bg, null);
   }
 
   toggleTheme = () => {
